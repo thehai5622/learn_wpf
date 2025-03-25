@@ -16,9 +16,9 @@ namespace LearnFromYoutube.Models
             _reservations = [];
         }
 
-        public IEnumerable<Reservation> GetReservationsForUser(String username)
+        public IEnumerable<Reservation> GetAllReservations()
         {
-            return _reservations.Where(r => r.Username == username);
+            return _reservations;
         }
 
         public void AddReservation(Reservation reservation)

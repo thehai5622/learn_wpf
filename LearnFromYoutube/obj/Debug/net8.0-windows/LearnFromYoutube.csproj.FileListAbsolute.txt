@@ -24,3 +24,4 @@ D:\DesktopApp\LearnFromYoutube\LearnFromYoutube\obj\Debug\net8.0-windows\Views\R
 D:\DesktopApp\LearnFromYoutube\LearnFromYoutube\obj\Debug\net8.0-windows\Views\MakeReservationView.baml
 D:\DesktopApp\LearnFromYoutube\LearnFromYoutube\obj\Debug\net8.0-windows\Views\ReservationListingView.baml
 D:\DesktopApp\LearnFromYoutube\LearnFromYoutube\obj\Debug\net8.0-windows\App.baml
+D:\DesktopApp\LearnFromYoutube\LearnFromYoutube\obj\Debug\net8.0-windows\LearnFromYoutube.sourcelink.json

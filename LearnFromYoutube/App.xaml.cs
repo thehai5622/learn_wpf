@@ -20,7 +20,7 @@ public partial class App : Application
         hotel.MakeReservation(new Reservation(
             new RoomID(1, 2), "SingletonSean", new DateTime(2000, 1, 3), new DateTime(2000, 1, 4)));
 
-        IEnumerable<Reservation> reservations = hotel.GetReservationsForUser("SingletonSean");
+        IEnumerable<Reservation> reservations = hotel.GetAllReservations();
 
         base.OnStartup(e);
     }

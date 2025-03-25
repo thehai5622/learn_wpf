@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\DesktopApp\\LearnFromYoutube\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70F109C2-C238-4E51-AEF5-69E1F8E8C100}|LearnFromYoutube\\LearnFromYoutube.csproj|d:\\desktopapp\\learnfromyoutube\\learnfromyoutube\\views\\makereservationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{70F109C2-C238-4E51-AEF5-69E1F8E8C100}|LearnFromYoutube\\LearnFromYoutube.csproj|solutionrelative:learnfromyoutube\\views\\makereservationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{70F109C2-C238-4E51-AEF5-69E1F8E8C100}|LearnFromYoutube\\LearnFromYoutube.csproj|d:\\desktopapp\\learnfromyoutube\\learnfromyoutube\\views\\reservationlistingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{70F109C2-C238-4E51-AEF5-69E1F8E8C100}|LearnFromYoutube\\LearnFromYoutube.csproj|solutionrelative:learnfromyoutube\\views\\reservationlistingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70F109C2-C238-4E51-AEF5-69E1F8E8C100}|LearnFromYoutube\\LearnFromYoutube.csproj|d:\\desktopapp\\learnfromyoutube\\learnfromyoutube\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -51,13 +51,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MakeReservationView.xaml",
-              "DocumentMoniker": "D:\\DesktopApp\\LearnFromYoutube\\LearnFromYoutube\\Views\\MakeReservationView.xaml",
-              "RelativeDocumentMoniker": "LearnFromYoutube\\Views\\MakeReservationView.xaml",
-              "ToolTip": "D:\\DesktopApp\\LearnFromYoutube\\LearnFromYoutube\\Views\\MakeReservationView.xaml",
-              "RelativeToolTip": "LearnFromYoutube\\Views\\MakeReservationView.xaml",
+              "Title": "ReservationListingView.xaml",
+              "DocumentMoniker": "D:\\DesktopApp\\LearnFromYoutube\\LearnFromYoutube\\Views\\ReservationListingView.xaml",
+              "RelativeDocumentMoniker": "LearnFromYoutube\\Views\\ReservationListingView.xaml",
+              "ToolTip": "D:\\DesktopApp\\LearnFromYoutube\\LearnFromYoutube\\Views\\ReservationListingView.xaml",
+              "RelativeToolTip": "LearnFromYoutube\\Views\\ReservationListingView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-25T02:19:34.095Z",
+              "WhenOpened": "2025-03-25T08:05:00.311Z",
               "EditorCaption": ""
             }
           ]

@@ -6,7 +6,37 @@
              xmlns:local="clr-namespace:LearnFromYoutube.Views"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-            
+    <Grid Background="Aqua" Grid.IsSharedSizeScope="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Column="0" Style="{StaticResource Header}">
+                <TextBlock.Text>
+                    View Reservations
+                </TextBlock.Text>
+            </TextBlock>
+
+            <Button Grid.Column="1" Margin="10 0 0 0">
+                Make Reservation
+            </Button>
+        </Grid>
+
+        <ListView Grid.Row="1" Margin="0 25 0 0">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </Grid>
 </UserControl>
