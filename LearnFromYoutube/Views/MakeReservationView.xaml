@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:LearnFromYoutube.Views"
+             xmlns:local="clr-namespace:LearnFromYoutube.Views" xmlns:viewmodels="clr-namespace:LearnFromYoutube.ViewModels" d:DataContext="{d:DesignInstance Type=viewmodels:MakeReservationViewModel}"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid Grid.IsSharedSizeScope="True">
@@ -40,7 +40,7 @@
                 Grid.Row="1" 
                 Grid.Column="0" 
                 Margin="0 5 0 0"
-                Text="" />
+                Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}"/>
         </Grid>
 
         <Grid Grid.Row="2">
@@ -65,7 +65,7 @@
                 Grid.Row="1" 
                 Grid.Column="0" 
                 Margin="0 5 0 0" 
-                Text="" />
+                Text="{Binding FloorNumber, UpdateSourceTrigger=PropertyChanged}"/>
 
             <TextBlock Grid.Row="0" 
                        Grid.Column="1"
@@ -79,7 +79,7 @@
                 Grid.Row="1" 
                 Grid.Column="1" 
                 Margin="10 5 0 0" 
-                Text="" /> 
+                Text="{Binding RoomNumber, UpdateSourceTrigger=PropertyChanged}"/> 
         </Grid>
 
         <Grid Grid.Row="3">
@@ -104,7 +104,7 @@
                 Grid.Row="1" 
                 Grid.Column="0"
                 Margin="0 5 0 0" 
-                SelectedDate=""/>
+                SelectedDate="{Binding StartDate, UpdateSourceTrigger=PropertyChanged}"/>
 
             <TextBlock Grid.Row="0" 
                        Grid.Column="1"
@@ -118,12 +118,12 @@
                 Grid.Row="1" 
                 Grid.Column="1" 
                 Margin="10 5 0 0" 
-                SelectedDate=""/>
+                SelectedDate="{Binding EndDate, UpdateSourceTrigger=PropertyChanged}"/>
         </Grid>
 
         <StackPanel Grid.Row="4" Orientation="Horizontal" Margin="0 25 0 0">
-            <Button Content="Submit"/>
-            <Button Content="Cancel" Margin="5 0 0 0"/>
+            <Button Command="{Binding SubmitCommand}" Content="Submit"/>
+            <Button Command="{Binding CancelCommand}" Content="Cancel" Margin="5 0 0 0"/>
         </StackPanel>
     </Grid>
 </UserControl>

@@ -3,13 +3,13 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:LearnFromYoutube" xmlns:views="clr-namespace:LearnFromYoutube.Views"
+        xmlns:local="clr-namespace:LearnFromYoutube" xmlns:views="clr-namespace:LearnFromYoutube.Views" xmlns:viewmodels="clr-namespace:LearnFromYoutube.ViewModels" d:DataContext="{d:DesignInstance Type=viewmodels:MainViewModel}"
         mc:Ignorable="d"
         Title="MainWindow" Height="400" Width="600"
         MinHeight="400" MinWidth="600"
         FontSize="14"
         WindowStartupLocation="CenterScreen">
     <Grid Margin="20 10">
-        <views:ReservationListingView/>
+        <views:MakeReservationView DataContext="{Binding CurrentViewModel}"/>
     </Grid>
 </Window>

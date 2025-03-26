@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\DesktopApp\\LearnFromYoutube\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70F109C2-C238-4E51-AEF5-69E1F8E8C100}|LearnFromYoutube\\LearnFromYoutube.csproj|d:\\desktopapp\\learnfromyoutube\\learnfromyoutube\\views\\reservationlistingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{70F109C2-C238-4E51-AEF5-69E1F8E8C100}|LearnFromYoutube\\LearnFromYoutube.csproj|solutionrelative:learnfromyoutube\\views\\reservationlistingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{70F109C2-C238-4E51-AEF5-69E1F8E8C100}|LearnFromYoutube\\LearnFromYoutube.csproj|d:\\desktopapp\\learnfromyoutube\\learnfromyoutube\\commands\\commandbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70F109C2-C238-4E51-AEF5-69E1F8E8C100}|LearnFromYoutube\\LearnFromYoutube.csproj|solutionrelative:learnfromyoutube\\commands\\commandbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70F109C2-C238-4E51-AEF5-69E1F8E8C100}|LearnFromYoutube\\LearnFromYoutube.csproj|d:\\desktopapp\\learnfromyoutube\\learnfromyoutube\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{70F109C2-C238-4E51-AEF5-69E1F8E8C100}|LearnFromYoutube\\LearnFromYoutube.csproj|solutionrelative:learnfromyoutube\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{70F109C2-C238-4E51-AEF5-69E1F8E8C100}|LearnFromYoutube\\LearnFromYoutube.csproj|d:\\desktopapp\\learnfromyoutube\\learnfromyoutube\\viewmodels\\makereservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70F109C2-C238-4E51-AEF5-69E1F8E8C100}|LearnFromYoutube\\LearnFromYoutube.csproj|solutionrelative:learnfromyoutube\\viewmodels\\makereservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70F109C2-C238-4E51-AEF5-69E1F8E8C100}|LearnFromYoutube\\LearnFromYoutube.csproj|d:\\desktopapp\\learnfromyoutube\\learnfromyoutube\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{70F109C2-C238-4E51-AEF5-69E1F8E8C100}|LearnFromYoutube\\LearnFromYoutube.csproj|solutionrelative:learnfromyoutube\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{70F109C2-C238-4E51-AEF5-69E1F8E8C100}|LearnFromYoutube\\LearnFromYoutube.csproj|d:\\desktopapp\\learnfromyoutube\\learnfromyoutube\\views\\makereservationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{70F109C2-C238-4E51-AEF5-69E1F8E8C100}|LearnFromYoutube\\LearnFromYoutube.csproj|solutionrelative:learnfromyoutube\\views\\makereservationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F109C2-C238-4E51-AEF5-69E1F8E8C100}|LearnFromYoutube\\LearnFromYoutube.csproj|d:\\desktopapp\\learnfromyoutube\\learnfromyoutube\\commands\\makereservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70F109C2-C238-4E51-AEF5-69E1F8E8C100}|LearnFromYoutube\\LearnFromYoutube.csproj|solutionrelative:learnfromyoutube\\commands\\makereservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,42 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CommandBase.cs",
+              "DocumentMoniker": "D:\\DesktopApp\\LearnFromYoutube\\LearnFromYoutube\\Commands\\CommandBase.cs",
+              "RelativeDocumentMoniker": "LearnFromYoutube\\Commands\\CommandBase.cs",
+              "ToolTip": "D:\\DesktopApp\\LearnFromYoutube\\LearnFromYoutube\\Commands\\CommandBase.cs",
+              "RelativeToolTip": "LearnFromYoutube\\Commands\\CommandBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T08:27:36.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\DesktopApp\\LearnFromYoutube\\LearnFromYoutube\\App.xaml",
-              "RelativeDocumentMoniker": "LearnFromYoutube\\App.xaml",
-              "ToolTip": "D:\\DesktopApp\\LearnFromYoutube\\LearnFromYoutube\\App.xaml",
-              "RelativeToolTip": "LearnFromYoutube\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-25T04:30:15.553Z",
+              "Title": "MakeReservationViewModel.cs",
+              "DocumentMoniker": "D:\\DesktopApp\\LearnFromYoutube\\LearnFromYoutube\\ViewModels\\MakeReservationViewModel.cs",
+              "RelativeDocumentMoniker": "LearnFromYoutube\\ViewModels\\MakeReservationViewModel.cs",
+              "ToolTip": "D:\\DesktopApp\\LearnFromYoutube\\LearnFromYoutube\\ViewModels\\MakeReservationViewModel.cs",
+              "RelativeToolTip": "LearnFromYoutube\\ViewModels\\MakeReservationViewModel.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAIwFgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T08:27:24.784Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\DesktopApp\\LearnFromYoutube\\LearnFromYoutube\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "LearnFromYoutube\\MainWindow.xaml",
-              "ToolTip": "D:\\DesktopApp\\LearnFromYoutube\\LearnFromYoutube\\MainWindow.xaml",
-              "RelativeToolTip": "LearnFromYoutube\\MainWindow.xaml",
+              "Title": "MakeReservationView.xaml",
+              "DocumentMoniker": "D:\\DesktopApp\\LearnFromYoutube\\LearnFromYoutube\\Views\\MakeReservationView.xaml",
+              "RelativeDocumentMoniker": "LearnFromYoutube\\Views\\MakeReservationView.xaml",
+              "ToolTip": "D:\\DesktopApp\\LearnFromYoutube\\LearnFromYoutube\\Views\\MakeReservationView.xaml",
+              "RelativeToolTip": "LearnFromYoutube\\Views\\MakeReservationView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-25T02:28:16.463Z",
+              "WhenOpened": "2025-03-26T08:26:56.345Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReservationListingView.xaml",
-              "DocumentMoniker": "D:\\DesktopApp\\LearnFromYoutube\\LearnFromYoutube\\Views\\ReservationListingView.xaml",
-              "RelativeDocumentMoniker": "LearnFromYoutube\\Views\\ReservationListingView.xaml",
-              "ToolTip": "D:\\DesktopApp\\LearnFromYoutube\\LearnFromYoutube\\Views\\ReservationListingView.xaml",
-              "RelativeToolTip": "LearnFromYoutube\\Views\\ReservationListingView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-25T08:05:00.311Z",
+              "DocumentIndex": 3,
+              "Title": "MakeReservationCommand.cs",
+              "DocumentMoniker": "D:\\DesktopApp\\LearnFromYoutube\\LearnFromYoutube\\Commands\\MakeReservationCommand.cs",
+              "RelativeDocumentMoniker": "LearnFromYoutube\\Commands\\MakeReservationCommand.cs",
+              "ToolTip": "D:\\DesktopApp\\LearnFromYoutube\\LearnFromYoutube\\Commands\\MakeReservationCommand.cs",
+              "RelativeToolTip": "LearnFromYoutube\\Commands\\MakeReservationCommand.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T08:05:13.905Z",
               "EditorCaption": ""
             }
           ]
